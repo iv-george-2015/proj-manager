@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+.grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #2196F3;
+	grid-gap: 1px;
+	grid-template-rows: auto auto;
+	padding: 1px;
+	
+}
+
+.grid .grid-header {
+	position: sticky;
+	top:0px;
+	background-color: rgb(239, 238, 227);
+	/*  border: 1px solid rgba(0, 0, 0, 0.8); */
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.grid .grid-data {
+	background-color: rgba(255, 255, 255, 0.8);
+	/*  border: 1px solid rgba(0, 0, 0, 0.8); */
+	padding: 20px;
+	font-size: 15px;
+	text-align: center;
+}
